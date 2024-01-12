@@ -1,10 +1,10 @@
 // src/main/kotlin/com/example/controllers/HomeController.kt
 
-package com.example.appkotlin.controllers
+package com.example.appkotlin.controller;
 
-import org.springframework.stereotype.Controller
-import org.springframework.ui.Model
-import org.springframework.web.bind.annotation.GetMapping
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 class HelloController {
