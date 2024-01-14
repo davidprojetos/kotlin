@@ -5,6 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import org.h2.tools.Server;
+import java.sql.SQLException; // Adicione esta importação
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 
